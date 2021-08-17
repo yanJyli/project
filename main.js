@@ -20,3 +20,8 @@ console.log(Math.floor( allpl * 100) / 100);
 
 //  Math.floor(num * 100) / 100 
 
+function main (pl) {
+    console.log(Math.floor( pl * 100) / 100); 
+};
+export { main };
+main();
