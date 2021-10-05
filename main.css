@@ -1,0 +1,141 @@
+* {	
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+    font-family: Verdana, sans-serif;
+}	
+
+script {
+    display: none;
+}
+
+body {
+    background-image: url(img/015wallpaper1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+
+#logo {
+    margin: 15px;
+    width: 1170px;
+    display: flex;
+}
+
+#logoTitle {
+    text-align: center;
+    font-size: 30px;
+    color: #1a75b3;
+    text-align: center;
+    margin-left: 420px; 
+}
+
+#nav {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: white;  
+    background-color: #4995c7;
+    margin-bottom: 60px;
+}
+
+.nav-link {
+    color: white;
+}
+
+#calculator {
+    box-sizing: border-box;
+    background-color: #7ed3f5;
+    opacity: 0.8;
+    padding: 5px 10px 10px 10px;
+    min-width: 300px;    
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#icon-calc{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+h1, h3 {
+    margin: 10px; 
+}
+
+#Credit {
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #b3b1ff;
+    float: left;
+    width:40%;
+    margin-left: 150px;
+    height: 380px;
+}
+
+#app-box{
+    float: left;
+    height: 380px;
+    width: 610px;            
+    position: relative;
+    border: 1px solid #b3b1ff;
+}
+
+#app {
+    position: absolute;
+    padding: 20px;
+    font-size: 18px;
+    height: 380px;
+    width: 610px;
+    overflow: auto;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#creditName, #nameLabelSelect, #c, #m, #p {
+    float: center;
+    margin: 10px;
+    padding: 2px;
+    font-size: 15px;
+    border: 1px solid #fafafa;
+    background-color: #cae7ee;;
+    height: 32px;
+}
+
+#check-button, #check-month-button {
+    background: #f78f1e;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+#info {
+    font-size: 15px;
+    min-width: 300px;
+    margin: 20px 150px 15px 150px;    
+    line-height: 1.7;
+}
+
+#footer {
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+a {
+    margin: 10PX;
+    text-decoration: none;
+    cursor: pointer;
+    color: #f57e00;;
+}
+
+span {
+    color: #999;
+    font-size: 12px;
+}
